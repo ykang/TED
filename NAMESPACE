@@ -1,0 +1,27 @@
+import(foreach)
+
+
+importFrom(zoo, na.approx)
+importFrom(fields,xline)
+importFrom(fields,yline) 
+importFrom(animation,saveGIF)
+importFrom(geoR,boxcoxfit) 
+importFrom(utils,txtProgressBar)
+importFrom(utils,setTxtProgressBar)
+importFrom(tcltk,tkProgressBar)
+importFrom(tcltk,setTkProgressBar)
+importFrom(RcppArmadillo, fastLmPure)  
+importFrom(RcppArmadillo, fastLm)     
+
+export(aniplotevents, 
+       cbfs,
+       cbfs_red,
+       detrendc,
+       eventCluster,
+       eventDetection,
+       eventExtraction,
+       measures,
+       noiseTests,
+       plotevents,
+       ts2mat,
+       ur.za.fast)
